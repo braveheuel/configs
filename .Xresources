@@ -1,38 +1,9 @@
-!-- Xft settings -- !
-Xft.dpi:        96
-Xft.antialias:  true
-Xft.rgba:       rgb
-Xft.hinting:    true
-Xft.hinstyle:   hintslight
-
-! -- xterm -- !
-xterm*faceName: Liberation Mono
-xterm*faceSize: 11
-! -- xterm*geometry: 120x120 -- !
-xterm*eightBitInput: false
-xterm*ScrollBar: false
-! -- xterm*charClass: 33:48,35:48,37:48,43:48,45-47:48,64:48,95:48,126:48 -- !
-! With URLs !
-xterm*charClass: 33:48,36-47:48,58-59:48,61:48,63-64:48,95:48,126:48
-xterm*mainMenu*Background: AntiqueWhite
-xterm*vtMenu*Background: AntiqueWhite
-xterm*fontMenu*Background: AntiqueWhite
-xterm*mainMenu*Foreground: black
-xterm*fontMenu*Foreground: black
-xterm*vtMenu*Foreground: black
-xterm*VT100.geometry: 106x69 
-
 ! -- Mutt -- !
-Mutt*geometry: 120x120
-Mutt*iconFile: /usr/share/icons/Mint-X/apps/scalable/evolution.svg
-Mutt*faceName: Liberation Mono
-Mutt*eightBitInput: false
+mutt*geometry: 120x120
+mutt*iconFile: /usr/share/icons/hicolor/scalable/apps/xfce4-backdrop.svg
+mutt*faceName: Liberation Mono
+mutt*eightBitInput: false
 
-
-! -- urxvt -- !
-URxvt*font: xft:Liberation Mono:pixelsize=14
-URxvt*scrollBar: false
-URxvt*termName:	rxvt-256color
 !
 ! Solarized color scheme for the X Window System
 !
@@ -79,9 +50,6 @@ URxvt*termName:	rxvt-256color
 ! the color assignment statement with its name. Example:
 !
 ! URxvt*background:            S_base03
-
-*faceName: Liberation Mono
-*faceSize: 11
 
 *background:              S_base03
 *foreground:              S_base0
