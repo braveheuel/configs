@@ -1,2 +1,4 @@
 keycode 135 = Super_R
 keycode 96 = Multi_key
+clear Lock
+keycode 66 = Escape
